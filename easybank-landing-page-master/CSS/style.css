@@ -772,7 +772,7 @@ footer .attribution {
 }
 @media (max-width: 540px) {
     .container {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     nav {
         width: 100%;
@@ -803,7 +803,7 @@ footer .attribution {
 
 @media (max-width: 450px) {
     .container {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     nav {
         width: 100%;
@@ -855,7 +855,7 @@ footer .attribution {
 }
 @media (max-width: 400px) {
     .container {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     nav {
         width: 100%;
@@ -875,14 +875,14 @@ footer .attribution {
 }
 @media (max-width: 375px) {
     .container {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     nav {
         width: 100%;
     }
     .nav-links {
         inset: 13% 3% 0 3%;
-        height: 50%;
+        height: 60%;
     }
     li a {
         margin: .5rem 0;
